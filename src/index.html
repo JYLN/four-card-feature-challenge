@@ -17,40 +17,80 @@
     <!-- Stylesheets/Other Resources -->
     <link rel="stylesheet" href="./styles.css" type="text/css" />
   </head>
-  <body>
+  <body class="bg-lotion font-poppins text-primary">
     <main>
-      <section>
-        <h2>Reliable, efficient delivery</h2>
-        <h3>Powered by Technology</h3>
-        <p>
+      <section
+        class="flex min-h-screen flex-col items-center justify-center px-8 py-20"
+      >
+        <h2
+          class="mb-1 text-center text-2xl font-extralight md:mb-3 md:text-4xl"
+        >
+          Reliable, efficient delivery
+        </h2>
+        <h3 class="mb-4 text-center text-2xl font-semibold md:text-4xl">
+          Powered by Technology
+        </h3>
+        <p
+          class="mb-16 max-w-[33.75rem] text-center text-[0.9375rem]/[1.5625rem] opacity-50"
+        >
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
-        <article>
-          <div>
-            <h4>Supervisor</h4>
-            <p>Monitors activity to identify project roadblocks</p>
-            <img src="./assets/images/icon-supervisor.svg" alt="" />
+        <article
+          class="grid max-w-[69.375rem] gap-[1.5625rem] md:grid-cols-3 md:items-center"
+        >
+          <div
+            class="relative flex flex-col rounded-lg p-7 shadow-md before:absolute before:left-0 before:top-0 before:h-1 before:w-full before:rounded-t-lg before:bg-green md:row-span-2"
+          >
+            <h4 class="mb-[0.1875rem] text-xl font-semibold">Supervisor</h4>
+            <p class="mb-8 text-[0.8125rem]/[1.4375rem] opacity-50">
+              Monitors activity to identify project roadblocks
+            </p>
+            <img
+              src="./assets/images/icon-supervisor.svg"
+              alt=""
+              class="size-[3.5625rem] self-end"
+            />
           </div>
-          <div>
-            <h4>Team Builder</h4>
-            <p>
+          <div
+            class="relative flex flex-col rounded-lg p-7 shadow-md before:absolute before:left-0 before:top-0 before:h-1 before:w-full before:rounded-t-lg before:bg-red md:col-start-2"
+          >
+            <h4 class="mb-1 text-xl font-semibold">Team Builder</h4>
+            <p class="mb-8 text-[0.8125rem]/[1.4375rem] opacity-50">
               Scans our talent network to create the optimal team for your
               project
             </p>
-            <img src="./assets/images/icon-team-builder.svg" alt="" />
+            <img
+              src="./assets/images/icon-team-builder.svg"
+              alt=""
+              class="size-[3.5625rem] self-end"
+            />
           </div>
-          <div>
-            <h4>Karma</h4>
-            <p>Regularly evaluates our talent to ensure quality</p>
-            <img src="./assets/images/icon-karma.svg" alt="" />
+          <div
+            class="relative flex flex-col rounded-lg p-7 shadow-md before:absolute before:left-0 before:top-0 before:h-1 before:w-full before:rounded-t-lg before:bg-yellow md:col-start-2"
+          >
+            <h4 class="mb-0.5 text-xl font-semibold">Karma</h4>
+            <p class="mb-8 text-[0.8125rem]/[1.4375rem] opacity-50">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <img
+              src="./assets/images/icon-karma.svg"
+              alt=""
+              class="size-[3.5625rem] self-end"
+            />
           </div>
-          <div>
-            <h4>Calculator</h4>
-            <p>
+          <div
+            class="relative flex flex-col rounded-lg p-7 shadow-md before:absolute before:left-0 before:top-0 before:h-1 before:w-full before:rounded-t-lg before:bg-blue md:col-start-3 md:row-span-2 md:row-start-1"
+          >
+            <h4 class="mb-0.5 text-xl font-semibold">Calculator</h4>
+            <p class="mb-8 text-[0.8125rem]/[1.4375rem] opacity-50">
               Uses data from past projects to provide better delivery estimates
             </p>
-            <img src="./assets/images/icon-calculator.svg" alt="" />
+            <img
+              src="./assets/images/icon-calculator.svg"
+              alt=""
+              class="size-[3.5625rem] self-end"
+            />
           </div>
         </article>
       </section>
