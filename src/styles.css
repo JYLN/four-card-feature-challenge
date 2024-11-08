@@ -1,3 +1,7 @@
+@import "npm:@fontsource/poppins/200.css";
+@import "npm:@fontsource/poppins/400.css";
+@import "npm:@fontsource/poppins/600.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
